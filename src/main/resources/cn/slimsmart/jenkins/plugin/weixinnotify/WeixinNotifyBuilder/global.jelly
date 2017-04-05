@@ -1,9 +1,22 @@
 <?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
-  <f:section title="微信通知">
-    <f:entry title="French" field="useFrench"
-      description="Check if we should say hello in French">
-      <f:checkbox />
-    </f:entry>
+  <f:section title="\u5fae\u4fe1\u901a\u77e5">
+    <f:entry title="Weixin Open API Server IP" field="serverIp" value="127.0.0.1" >
+	    <f:textbox />
+	  </f:entry>
+	  <f:entry title="Weixin Open API Server Port" field="serverPort" value="80">
+	    <f:textbox />
+	  </f:entry>
+	  <f:entry title="Weixin Open API APPKey" field="apKey">
+	    <f:textbox />
+	  </f:entry>
+	  <f:entry title="Weixin Open API SecretKey" field="secretKey">
+	    <f:textbox />
+	  </f:entry>
+	  <f:advanced>
+	  	<f:entry title="Weixin Message Template Id" field="templateId">
+	    	<f:textbox />
+	  	</f:entry>
+	  </f:advanced>
   </f:section>
 </j:jelly>

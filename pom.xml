@@ -25,8 +25,8 @@
 		<jenkins-test-harness.version>2.13</jenkins-test-harness.version>
 	</properties>
 
-	<name>jenkins微信通知插件</name>
-	<description>对构建结果使用微信通知，使其及时获取构建结果</description>
+	<name>jenkins微信通知</name>
+	<description>该插件支持将构建结果发送给用户的微信终端,以便及时了解构建结果。</description>
 	<url>https://github.com/slimina/weixin-notify-plugin-for-jenkins</url>
 
 	<licenses>
