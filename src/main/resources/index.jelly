@@ -1,7 +1,8 @@
-<?jelly escape-by-default='true'?>
 <!--
-  This view is used to render the installed plugins page.
+  This view is used to render the plugin list page.
+  Since we don't really have anything dynamic here, let's just use static HTML. 
 -->
+<?jelly escape-by-default='true'?>
 <div>
-  This plugin is a sample to explain how to write a Jenkins plugin.
+ 	 该插件支持将构建结果发送给用户的微信终端,以便及时了解构建结果。
 </div>
