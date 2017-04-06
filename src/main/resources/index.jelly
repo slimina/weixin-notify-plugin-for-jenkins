@@ -4,5 +4,5 @@
 -->
 <?jelly escape-by-default='true'?>
 <div>
- 	 该插件支持将构建结果发送给用户的微信终端,以便及时了解构建结果。
+	The plugin supports the sending of the results to the user's micro-mail terminal in order to keep abreast of the build results.
 </div>

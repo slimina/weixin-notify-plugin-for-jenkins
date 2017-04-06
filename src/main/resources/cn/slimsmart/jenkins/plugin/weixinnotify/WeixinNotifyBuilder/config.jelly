@@ -1,6 +1,6 @@
 <?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
-	<f:entry field="isSend" title="\u53d1\u9001\u6d88\u606f">
+	<f:entry field="isSend" title="是否发送通知">
           <f:checkbox />
      </f:entry>
 </j:jelly>

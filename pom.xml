@@ -25,8 +25,8 @@
 		<jenkins-test-harness.version>2.13</jenkins-test-harness.version>
 	</properties>
 
-	<name>jenkins微信通知</name>
-	<description>该插件支持将构建结果发送给用户的微信终端,以便及时了解构建结果。</description>
+	<name>jenkins weixin notify</name>
+	<description>The plug-in supports the sending of the results to the user's micro-mail terminal in order to keep abreast of the build results.</description>
 	<url>https://github.com/slimina/weixin-notify-plugin-for-jenkins</url>
 
 	<licenses>
@@ -38,7 +38,7 @@
 	<developers>
 		<developer>
 			<id>personal</id>
-			<name>朱天伟</name>
+			<name>zhutw</name>
 			<email>tianwei7518@qq.com</email>
 		</developer>
 	</developers>
@@ -51,7 +51,7 @@
 					<rules>
 						<requireJavaVersion>
 							<message>
-                             <![CDATA[JDK版本至少 ${java.version}.]]>
+                             <![CDATA[JDK version at least ${java.version}.]]>
 							</message>
 							<version>[${java.version}.0,)</version>
 						</requireJavaVersion>

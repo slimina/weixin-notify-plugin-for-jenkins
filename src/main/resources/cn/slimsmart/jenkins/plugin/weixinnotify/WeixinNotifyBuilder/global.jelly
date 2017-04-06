@@ -1,20 +1,20 @@
 <?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
-  <f:section title="\u5fae\u4fe1\u901a\u77e5">
-    <f:entry title="Weixin Open API Server IP" field="serverIp" value="127.0.0.1" >
+  <f:section title="微信通知">
+    <f:entry title="API服务器地址" field="serverIp" value="127.0.0.1" >
 	    <f:textbox />
 	  </f:entry>
-	  <f:entry title="Weixin Open API Server Port" field="serverPort" value="80">
+	  <f:entry title="API服务器端口" field="serverPort" value="80">
 	    <f:textbox />
 	  </f:entry>
-	  <f:entry title="Weixin Open API APPKey" field="apKey">
+	  <f:entry title="请求 API APPKey" field="apKey">
 	    <f:textbox />
 	  </f:entry>
-	  <f:entry title="Weixin Open API SecretKey" field="secretKey">
+	  <f:entry title="请求 API SecretKey" field="secretKey">
 	    <f:textbox />
 	  </f:entry>
 	  <f:advanced>
-	  	<f:entry title="Weixin Message Template Id" field="templateId">
+	  	<f:entry title="微信消息模板Id" field="templateId">
 	    	<f:textbox />
 	  	</f:entry>
 	  </f:advanced>
