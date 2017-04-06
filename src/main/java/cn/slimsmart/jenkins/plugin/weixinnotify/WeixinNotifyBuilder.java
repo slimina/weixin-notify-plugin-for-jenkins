@@ -88,7 +88,7 @@ public class WeixinNotifyBuilder extends Notifier implements BuildStep{
             return true;
         }
         public String getDisplayName() {
-            return "微信通知:";
+            return "微信通知";
         }
 
         @Override
